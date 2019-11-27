@@ -28,7 +28,7 @@ class App extends React.Component {
           });
         });
       }
-
+      //console.log("TEST TEST TES");
       setCurrentUser(userAuth);
     });
   }
