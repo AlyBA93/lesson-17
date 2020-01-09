@@ -9,16 +9,20 @@ const OptionContainerStyles = css`
 `;
 
 export const HeaderContainer = styled.div`
-    height: 70px;
+    height: 100px;
     width: 100%;
     display: flex;
     justify-content: space-between;
-    margin-bottom: 25px;
+    margin-bottom: 15px;
+    background-color:  rgb(131, 163, 189);
 `;
 export const Logocontainer = styled (Link)`
     height: 100%;
-    width: 70px;
-    padding: 25px;
+    padding: 5px;
+    position: relative;
+    top:0;
+    left: 30px;
+
 `;
 
 export const OptionContainer = styled.div`

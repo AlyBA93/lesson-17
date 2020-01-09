@@ -11,7 +11,7 @@ class CitiesSlider extends React.Component {
       this.AUTOCHANGE_TIME = 4000;   
       this.state = { 
         activeSlide: 0,
-         prevSlide: -1,
+        prevSlide: -1,
         sliderReady: true,
         slides : [
             {
@@ -76,7 +76,7 @@ class CitiesSlider extends React.Component {
       const { activeSlide, prevSlide, sliderReady, slides } = this.state;
       return (
         <div className={classNames('slider', { 's--ready': sliderReady })}>
-          <p className="slider__top-heading">Travelers</p>
+          <p className="slider__top-heading">Terangua Meuble</p>
           <div className="slider__slides">
             {slides.map((slide, index) => (
               <div

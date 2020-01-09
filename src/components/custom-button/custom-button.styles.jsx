@@ -7,7 +7,7 @@ const getButtonStyles = props => {
         return GoogleSignInStyles
     }
 
-    return props.inverted ? invetedButtonStyles : buttonStyles 
+    return props.inverted ? invertedButtonStyles : buttonStyles 
 }
 
 const buttonStyles = css`
@@ -43,7 +43,7 @@ export const CustomButtonConatainer = styled.button`
 
 `;
 
-const invetedButtonStyles = css`
+const invertedButtonStyles = css`
     background-color: white;
     color: black;
     border: 1px solid black;
