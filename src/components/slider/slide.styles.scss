@@ -25,6 +25,7 @@ $letterStagger: 0.1s;
   height: 100vh;
   color: #fff;
   margin: 5px;
+  background: #000;
 
   @mixin sliderReady {
     .slider.s--ready & {
