@@ -17,11 +17,11 @@ const StripeCheckoutButton = ({price}) => {
             name= 'TRG MEUBLE Ltd'
             billingAddress
             shippingAddress
-            image = ''
+            //image = '../../assets/trg-logoHD.svg'
             description ={`Your total is ${price}`}
             amount ={priceForStripe}
             panelLabel='Pay now'
-            token='onToken'
+            token={onToken}
             stripeKey={publishableKey}
         />
     );
