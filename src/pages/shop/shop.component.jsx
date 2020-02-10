@@ -1,10 +1,10 @@
 import React from 'react';
-import {connect} from 'react-redux';
+//import {connect} from 'react-redux';
 import { Route } from "react-router-dom";
 
-import {createStructuredSelector} from 'reselect';
+//import {createStructuredSelector} from 'reselect';
 
-import {selectShopCollections} from '../../redux/shop/shop.selectors';
+//import {selectShopCollections} from '../../redux/shop/shop.selectors';
 
 import CollectionOverview from '../../components/collection-overview/collection-overview.component';
 
@@ -17,9 +17,10 @@ const ShopPage = ({match}) => (
   </div>
 );
 
-
+/*
 const mapStateToProps = createStructuredSelector ({
   collections: selectShopCollections
 });
+*/
 
-export default connect(mapStateToProps)(ShopPage);
+export default ShopPage
