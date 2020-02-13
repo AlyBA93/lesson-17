@@ -47,12 +47,6 @@ class ShopPage extends React.Component {
   }
 }  
 
-/*
-const mapStateToProps = createStructuredSelector ({
-  collections: selectShopCollections
-});
-*/
-
 const mapDispatchToProps = dispatch => ({
   updateCollections: collectionMap => 
   dispatch(updateCollections(collectionMap))
